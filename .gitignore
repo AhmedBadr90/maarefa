@@ -5,6 +5,17 @@
 *.suo
 *.user
 *.sln.docstates
+*.suo
+*.user
+*.sln.docstates
+Maarefa/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Maarefa/obj/Debug/Maarefa.csproj.FileListAbsolute.txt
+.vs/maarefa/v14/.suo 
+*.exe
+maarefa.pdb
+maarefa.vshost.exe
+*.cache
+
 
 # Build results
 
@@ -22,6 +33,14 @@ build/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+*.suo
+*.user
+*.sln.docstates
+*.exe
+maarefa.pdb
+maarefa.vshost.exe
+.vs/maarefa/v14/.suo 
+Maarefa/bin/Debug/maarefa.vshost.exe
 *_i.c
 *_p.c
 *.ilk
