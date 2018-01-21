@@ -45,10 +45,109 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\frmAllUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAllUsers.Designer.cs">
+      <DependentUpon>frmAllUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmManageUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmManageUser.Designer.cs">
+      <DependentUpon>frmManageUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Classes\clsBranch.cs" />
+    <Compile Include="General\Classes\clsLogin.cs" />
+    <Compile Include="General\Classes\clsMain.cs" />
+    <Compile Include="General\Classes\clsManageMenus.cs" />
+    <Compile Include="General\Classes\clsManagePrivileges.cs" />
+    <Compile Include="General\Classes\clsNation.cs" />
+    <Compile Include="General\Classes\clsRole.cs" />
+    <Compile Include="General\Classes\clsRoles.cs" />
+    <Compile Include="General\Classes\clsUser.cs" />
+    <Compile Include="General\Forms\frmAddRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Forms\frmAddRoles.designer.cs">
+      <DependentUpon>frmAddRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Forms\frmDBSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Forms\frmDBSettings.Designer.cs">
+      <DependentUpon>frmDBSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Forms\frmLogin2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Forms\frmLogin2.Designer.cs">
+      <DependentUpon>frmLogin2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Forms\frmManageMenus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Forms\frmManageMenus.Designer.cs">
+      <DependentUpon>frmManageMenus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Forms\frmManagePrivileges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Forms\frmManagePrivileges.Designer.cs">
+      <DependentUpon>frmManagePrivileges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Forms\frmParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Forms\frmParent.Designer.cs">
+      <DependentUpon>frmParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Forms\frmRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Forms\frmRoles.designer.cs">
+      <DependentUpon>frmRoles.cs</DependentUpon>
+    </Compile>
     <Compile Include="General\Globalclass.cs" />
     <Compile Include="General\DBHandlerSqlServer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\frmAllUsers.resx">
+      <DependentUpon>frmAllUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmManageUser.resx">
+      <DependentUpon>frmManageUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Forms\frmAddRoles.resx">
+      <DependentUpon>frmAddRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Forms\frmDBSettings.resx">
+      <DependentUpon>frmDBSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Forms\frmLogin2.resx">
+      <DependentUpon>frmLogin2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Forms\frmManageMenus.resx">
+      <DependentUpon>frmManageMenus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Forms\frmManagePrivileges.resx">
+      <DependentUpon>frmManagePrivileges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Forms\frmParent.resx">
+      <DependentUpon>frmParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Forms\frmRoles.resx">
+      <DependentUpon>frmRoles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -81,8 +180,6 @@
   <ItemGroup>
     <Folder Include="bin\Release\" />
     <Folder Include="Classes\" />
-    <Folder Include="Forms\" />
-    <Folder Include="General\Forms\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\books-small.png" />

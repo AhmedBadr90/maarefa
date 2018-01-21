@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Settings>
   
-  <ServerName>.</ServerName>
-  <DBName>MAAREF</DBName>
-  <DBUserName>sa</DBUserName>
-  <DBPassword>Maaref2017</DBPassword>
-  <isRemembered>True</isRemembered>
-  <UserName>test</UserName>
+  <ServerName>sql4002.shared-servers.com,1086</ServerName>
+  <DBName>marefa</DBName>
+  <DBUserName>marefateam</DBUserName>
+  <DBPassword>123@marefa</DBPassword>
+  <isRemembered></isRemembered>
+  <UserName></UserName>
   <UserID></UserID>
   <BranchID></BranchID>
   <PC_IP></PC_IP>
