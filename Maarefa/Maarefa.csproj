@@ -48,16 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\frmAllUsers.cs">
+    <Compile Include="General\Forms\frmAllUsers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmAllUsers.Designer.cs">
+    <Compile Include="General\Forms\frmAllUsers.Designer.cs">
       <DependentUpon>frmAllUsers.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmManageUser.cs">
+    <Compile Include="General\Forms\frmManageUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmManageUser.Designer.cs">
+    <Compile Include="General\Forms\frmManageUser.Designer.cs">
       <DependentUpon>frmManageUser.cs</DependentUpon>
     </Compile>
     <Compile Include="General\Classes\clsBranch.cs" />
@@ -121,10 +121,10 @@
     <Compile Include="General\DBHandlerSqlServer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\frmAllUsers.resx">
+    <EmbeddedResource Include="General\Forms\frmAllUsers.resx">
       <DependentUpon>frmAllUsers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmManageUser.resx">
+    <EmbeddedResource Include="General\Forms\frmManageUser.resx">
       <DependentUpon>frmManageUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="General\Forms\frmAddRoles.resx">
@@ -183,6 +183,7 @@
   <ItemGroup>
     <Folder Include="bin\Release\" />
     <Folder Include="Classes\" />
+    <Folder Include="Forms\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\books-small.png" />
