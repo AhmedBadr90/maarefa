@@ -16,8 +16,7 @@ namespace maarefa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain());
-            Application.Run(new frmManagePrivileges());
+            Application.Run(new frmLogin2());
             //Application.Run(new SplashForm());
         }
     }

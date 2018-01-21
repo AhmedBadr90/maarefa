@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>maarefa.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -191,6 +194,16 @@
     <Content Include="bin\Debug\WindowsFormsApplication1.pdb" />
     <Content Include="bin\Debug\WindowsFormsApplication1.vshost.exe" />
     <None Include="Resources\books-startup.png" />
+    <None Include="Resources\icons8-add-new-30.png" />
+    <None Include="Resources\icons8-add-new-40.png" />
+    <None Include="Resources\icons8-add-user-.png" />
+    <None Include="Resources\icons8-cancel-30.png" />
+    <None Include="Resources\icons8-edit-file-30.png" />
+    <None Include="Resources\icons8-edit-file-40.png" />
+    <None Include="Resources\icons8-enter-40.png" />
+    <None Include="Resources\icons8-enter-401.png" />
+    <None Include="Resources\icons8-export-40.png" />
+    <None Include="Resources\icons8-export-401.png" />
     <Content Include="Settings.xml">
       <SubType>Designer</SubType>
     </Content>
