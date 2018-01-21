@@ -57,39 +57,7 @@
     <Compile Include="frmDBSettings.Designer.cs">
       <DependentUpon>frmDBSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLogin2.Designer.cs">
-      <DependentUpon>frmLogin2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmManagePrivileges.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmManagePrivileges.Designer.cs">
-      <DependentUpon>frmManagePrivileges.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmManageMenus.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmManageMenus.Designer.cs">
-      <DependentUpon>frmManageMenus.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmParent.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmParent.Designer.cs">
-      <DependentUpon>frmParent.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRoles.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmRoles.cs" />
     <Compile Include="frmRoles.Designer.cs">
       <DependentUpon>frmRoles.cs</DependentUpon>
     </Compile>
@@ -111,21 +79,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmDBSettings.resx">
       <DependentUpon>frmDBSettings.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin2.resx">
-      <DependentUpon>frmLogin2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmManagePrivileges.resx">
-      <DependentUpon>frmManagePrivileges.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmManageMenus.resx">
-      <DependentUpon>frmManageMenus.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmParent.resx">
-      <DependentUpon>frmParent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRoles.resx">
       <DependentUpon>frmRoles.cs</DependentUpon>
